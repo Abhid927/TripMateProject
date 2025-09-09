@@ -3,9 +3,6 @@
 ## Overview:
 TripMate is an all-in-one platform designed for group travel planning, financial tracking, and itinerary management. It simplifies expense tracking, cost splitting, and budgeting across different currencies, ensuring an organized and stress-free travel experience for groups.
 
-Project Links:
-Trello Project Page: [https://trello.com/b/J5NlClLA/342-term-project]
-
 ## Functionalities
 
 #### Financial Management:
