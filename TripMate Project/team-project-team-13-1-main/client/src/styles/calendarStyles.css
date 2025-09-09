@@ -1,0 +1,28 @@
+/* Hide hour labels but keep time grid */
+.rbc-time-header-gutter {
+    display: none; /* Hide the hour column on the left */
+  }
+  
+  /* Shrink hourly slots to make them less intrusive */
+  .rbc-time-content {
+    height: 0 !important; /* Collapse time grid height */
+  }
+  
+  /* Clean up spacing */
+  .rbc-timeslot-group {
+    display: none; /* Remove timeslot rows */
+  }
+  
+  /* Reduce space below all-day events */
+  .rbc-allday-cell {
+    min-height: 80px !important;
+  }
+  
+  /* Style all-day event blocks */
+  .rbc-event {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+  }
+  
