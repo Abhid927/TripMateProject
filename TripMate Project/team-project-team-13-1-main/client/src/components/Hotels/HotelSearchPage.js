@@ -14,7 +14,7 @@ const HotelSearchPage = () => {
 
     useEffect(() => {
         const script = document.createElement("script");
-        script.src = `https://maps.googleapis.com/maps/api/js?key=${'AIzaSyBrxd9VeGZoe75EFmcvkiXtIj3oMWdPCZQ'}&callback=initMap`;
+        script.src = `https://maps.googleapis.com/maps/api/js?key=${''}&callback=initMap`;
         script.async = true;
         document.head.appendChild(script);
 
